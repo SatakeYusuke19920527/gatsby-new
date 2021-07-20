@@ -4,10 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `gatsby site`,
-    description: `Gatbyで作成したサイトです。`,
-    author: `satYus.js`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `ProAca Web site`,
+    description: `created by gatsby`,
+    author: `SatYus`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -35,7 +35,7 @@ const IndexPage = () => {
   `)
   return (
     <Layout>
-      <Seo title="SEO component" description="Gatsbyを使って作ったブログです" />
+      <Seo title="ProAca" description="ProgrammingAcademy" />
       <Hero />
       {
         data.allContentfulPost.edges.map((edge,index) => {
