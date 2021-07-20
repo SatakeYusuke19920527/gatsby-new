@@ -1,8 +1,6 @@
 import React from "react"
 import {Link} from 'gatsby'
 
-// const RANDOM_IMG = "https://source.unsplash.com/collection/175083/640x360";
-
 export default function PostLink({ title, description, updatedAt, slug, image }) {
     const pageLink = `/post/${slug}/`
     return (

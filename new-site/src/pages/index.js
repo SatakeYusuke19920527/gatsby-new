@@ -33,15 +33,15 @@ const IndexPage = () => {
       }
     }
   `)
-  console.log(data, 'check')
   return (
     <Layout>
-    <Seo title="Home" />
+      <Seo title="SEO component" description="Gatsbyを使って作ったブログです" />
       <Hero />
       {
-        data.allContentfulPost.edges.map(edge => {
+        data.allContentfulPost.edges.map((edge,index) => {
           return (
             <PostLink
+              key={index}
               title={edge.node.title}
               description={edge.node.description.description}
               updatedAt={edge.node.updatedAt}
