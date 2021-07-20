@@ -5,9 +5,6 @@ import Layout from "../components/layout";
 export default function Post({ pageContext }) {
     const { title, updatedAt, image } = pageContext.post;
     const body = pageContext.post.body.childMarkdownRemark.html;
-  console.log(pageContext.post, 'pageContext.post===')
-  console.log(pageContext.post.body, 'pageContext.post.body===')
-  console.log(pageContext.post.body.childMarkdownRemark, 'pageContext.post.body.childMarkdownRemark===')
   // console.log(pageContext.post.body.childMarkdownRemark.html, 'pageContext.post.body.childMarkdownRemark.html===')
     return (
         <Layout>
