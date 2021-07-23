@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Yus Sat",
   "dependencies": {
+    "@stripe/stripe-js": "^1.16.0",
     "dotenv": "^8.6.0",
     "gatsby": "^3.9.0",
     "gatsby-plugin-gatsby-cloud": "^2.9.0",
@@ -16,6 +17,7 @@
     "gatsby-source-contentful": "^5.9.0",
     "gatsby-source-filesystem": "^3.9.0",
     "gatsby-source-graphql": "^3.9.0",
+    "gatsby-source-stripe": "^3.2.2",
     "gatsby-transformer-remark": "^4.6.0",
     "gatsby-transformer-sharp": "^3.9.0",
     "prop-types": "^15.7.2",

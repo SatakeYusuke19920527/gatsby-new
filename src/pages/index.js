@@ -5,6 +5,7 @@ import Seo from "../components/seo"
 import Hero from '../components/hero'
 import PostLink from '../components/post-link'
 import Footer from '../components/footer'
+import { Link } from "gatsby"
 
 import { graphql, useStaticQuery } from "gatsby"
 
@@ -37,6 +38,9 @@ const IndexPage = () => {
     <Layout>
       <Seo title="ProAca" description="ProgrammingAcademy" />
       <Hero />
+      <div>
+        <Link to='/fundraising'>Fundraising</Link>
+      </div>
       {
         data.allContentfulPost.edges.map((edge,index) => {
           return (
