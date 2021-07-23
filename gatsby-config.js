@@ -50,13 +50,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    {
-      resolve: `gatsby-source-stripe`,
-      options: {
-        objects: ["Price"],
-        secretKey: process.env.STRIPE_SECRET_KEY,
-        downloadFiles: false,
-      },
-    },
   ],
 }
